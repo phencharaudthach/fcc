@@ -4,10 +4,10 @@ var stringB = b.split("");
 var i = 0;
 var matchString = [];
 while (i < stringA.length){
-    console.log(matchString.push(stringA[stringA.indexOf(stringB[i])]))
-    // if (stringA.indexOf(stringB[i]) !== -1){
-    //     console.log(matchString.push(stringA[stringA.indexOf(stringB[i])]))
-    // }
+    // console.log(matchString.push(stringA[stringA.indexOf(stringB[i])]))
+    if (stringA.indexOf(stringB[i]) !== -1){
+        matchString.push(stringA[stringA.indexOf(stringB[i])])
+    }
     i++
 }
 
